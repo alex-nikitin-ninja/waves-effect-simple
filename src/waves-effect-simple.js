@@ -1,5 +1,7 @@
 var wavesEffectSimple = {
     elementClick: function(e) {
+        console.log('click worked...');
+
         function getClickOffsetElement(evt, element) {
             let el = element,
                 x = 0,
@@ -26,11 +28,11 @@ var wavesEffectSimple = {
 
         setTimeout(function() {
             rippleEl.className += " animated";
-        }, 0);
+        }, 30);
 
         setTimeout(function() {
             rippleEl.parentNode.removeChild(rippleEl);
-        }, 1250);
+        }, 1280);
     },
 
     appendClick: function(element) {
