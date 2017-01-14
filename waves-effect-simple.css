@@ -1,0 +1,40 @@
+.waves-effect-simple {
+    overflow: hidden;
+    position: relative;
+}
+
+.waves-effect-simple .waves-ripple {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    z-index: 99;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 1250ms ease, margin-left 1250ms ease, margin-top 1250ms ease, left 1250ms ease, top 1250ms ease, width 1250ms ease, height 1250ms ease;
+}
+
+.waves-effect-simple .waves-ripple.animated {
+    width: 300px;
+    height: 300px;
+    margin-left: -150px;
+    margin-top: -150px;
+    opacity: 0;
+}
+
+.waves-effect-simple .waves-ripple {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a8FFFFFF', GradientType=1);
+}
+
+.waves-effect-simple.waves-effect-simple-dark .waves-ripple {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a8000000', GradientType=1);
+}
