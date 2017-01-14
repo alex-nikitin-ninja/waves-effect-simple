@@ -23,9 +23,9 @@ already existing `.waves-effect-simple`
 ```
 
 ## Customization
-For example you want to make blue waves instead of default white or dark.
+For example you want to make blue color waves instead of default white or dark.
 
-In that case just create
+In that case just create an entry
 `.waves-effect-simple.waves-effect-simple-blue .waves-ripple`
 in your site styles css file and change the background of the element to blue color:
 ```
