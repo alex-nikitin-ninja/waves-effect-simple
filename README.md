@@ -42,4 +42,6 @@ After that you can use it by adding this class to existing `.waves-effect-simple
 ```
 
 ## Demo
-coming soon
+It's applied in the top menu on my webste https://alex.nikitin.ninja/
+
+More samples are coming soon.
