@@ -42,4 +42,4 @@ After that you can use it by adding this class to existing `.waves-effect-simple
 ```
 
 ## Demo
-in progress...
+https://alex.nikitin.ninja/demos/waves-effect-simple/docs/
