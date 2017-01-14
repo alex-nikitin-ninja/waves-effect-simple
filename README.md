@@ -1,7 +1,7 @@
 # waves-effect-simple
 
 This is simple and easy to use VanillaJS framework which adds waves effect to any block element on
-the page
+the page.
 
 ## Usage
 ### Connect CSS and JS files
@@ -16,7 +16,8 @@ just append `.waves-effect-simple` class to the necessary element
 ```
 
 ### Dark waves 
-If you wish to use dark colors instead of white, you can add class `.waves-effect-simple-dark` to already existing `.waves-effect-simple`
+If you wish to use dark colors instead of white, you can add class `.waves-effect-simple-dark` to
+already existing `.waves-effect-simple`
 ```
 <p class="waves-effect-simple waves-effect-simple-dark">Lorem ipsum dolor.</p>
 ```
